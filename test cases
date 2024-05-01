@@ -1,0 +1,68 @@
+Description: User Authentication - Registration
+Steps to Reproduce:
+Navigate to the registration page.
+Fill in the required fields with valid information.
+Click on the "Register" button.
+Expected Results:
+User is registered successfully.
+User is redirected to the login page.
+Test Data:
+Username: testuser
+Email: testuser@example.com
+Password: Test@123
+
+
+Description: Repository Creation
+Steps to Reproduce:
+Navigate to the "New Repository" page.
+Fill in the repository name and description.
+Choose the appropriate settings.
+Click on the "Create Repository" button.
+Expected Results:
+Repository is created successfully.
+User is redirected to the repository's main page.
+Test Data:
+Repository Name: test-repo
+Description: This is a test repository.
+
+
+Description: File Upload
+Steps to Reproduce:
+Navigate to the repository where the file should be uploaded.
+Click on the "Upload Files" button.
+Select the file from the local file system.
+Click on the "Commit Changes" button.
+Expected Results:
+File is uploaded successfully.
+File appears in the repository's file list.
+Test Data:
+File: test_file.txt
+
+
+Description: Issue Creation
+Steps to Reproduce:
+Navigate to the repository's issues section.
+Click on the "New Issue" button.
+Fill in the issue title and description.
+Click on the "Submit new issue" button.
+Expected Results:
+Issue is created successfully.
+Issue appears in the repository's issue list.
+Test Data:
+Issue Title: Test Issue
+Description: This is a test issue.
+
+
+Description: Pull Request Creation
+Steps to Reproduce:
+Navigate to the repository's pull requests section.
+Click on the "New Pull Request" button.
+Select the branches to compare.
+Fill in the pull request title and description.
+Click on the "Create Pull Request" button.
+Expected Results:
+Pull request is created successfully.
+Pull request appears in the repository's pull request list.
+Test Data:
+Pull Request Title: Test Pull Request
+Description: This is a test pull request.
